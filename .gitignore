@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+images/.DS_Store
