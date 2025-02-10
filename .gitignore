@@ -18,3 +18,4 @@ Thumbs.db       # Windows
 .env
 
 images/.DS_Store
+.DS_Store
