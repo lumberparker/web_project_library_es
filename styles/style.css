@@ -232,15 +232,16 @@
 }
 
 .events__cover {
-  /* flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative; */
+  max-height: 780px;
 }
 
 .events__image {
-  max-width: 99%;
+  max-width: 100%;
+  position: relative;
 }
 
 .person {
@@ -253,23 +254,38 @@
 
 .person_name_feynman {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: absolute;
+  position: relative;
+  bottom: 620px;
+  z-index: 1;
 }
 
 .person_name_burbidge {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: relative;
+  bottom: 670px;
+  left: 195px;
 }
 
 .person_name_cannon {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+
+  position: relative;
+  bottom: 445px;
+  left: 110px;
 }
 
 .person_name_mitchell {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: relative;
+  bottom: 620px;
+  right: 205px;
 }
 
 .person_name_tarter {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: relative;
+  bottom: 1050px;
+  right: 185px;
 }
 
 .person__image {
@@ -289,7 +305,7 @@
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0;
 }
