@@ -311,10 +311,10 @@
   padding: 100px 0 140px;
   background-color: #057bf2;
   color: #ffffff;
-max-height: 300px;
+  max-height: 300px;
   display: flex;
-flex-direction: column;
-align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .membership__title {
@@ -330,14 +330,13 @@ align-items: center;
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  display:flex;
+  display: flex;
   flex-basis: 1080px;
-  gap:40px;
-flex-wrap: nowrap;
- justify-content: center;
- 
- max-width: 1080px;
- 
+  gap: 40px;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  max-width: 1080px;
 }
 
 .step {
@@ -362,37 +361,43 @@ flex-wrap: nowrap;
 .step__description {
   margin: 10px 0 0;
 }
-
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: black;
   color: white;
-  height: 300px;
-  padding: 60px 80px;
-  
+  padding: 60px 80px 60px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .footer__columns {
-display: flex;
-justify-content: flex-end;
-gap: 80px;
-
+  display: flex;
+  justify-content: space-between;
 }
+.footer__column_content {
+  display: flex;
 
+  gap: 80px;
+}
 .footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer__logo {
-  width: 58px;
   height: 80px;
-  justify-self: flex-start;
+  width: 58px;
 }
 
 .footer__column-heading {
-  color:white;
 }
 
 .footer__list {
@@ -400,6 +405,16 @@ gap: 80px;
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.footer__column_content_hours_weekkly {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer__list-item {
@@ -414,4 +429,19 @@ gap: 80px;
 }
 
 .footer__copyright {
+}
+.footer ul,
+.footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.redes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer__column-info {
+  display: flex;
+  gap: 16px;
 }
