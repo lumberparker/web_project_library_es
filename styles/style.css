@@ -318,7 +318,7 @@ align-items: center;
 }
 
 .membership__title {
-  max-width: 574px;
+  max-width: 580px;
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
@@ -366,10 +366,17 @@ flex-wrap: nowrap;
 .footer {
   box-sizing: border-box;
   background-color: #000000;
-  max-height: 300px;
+  color: white;
+  height: 300px;
+  padding: 60px 80px;
+  
 }
 
 .footer__columns {
+display: flex;
+justify-content: flex-end;
+gap: 80px;
+
 }
 
 .footer__column_content_hours {
@@ -379,9 +386,13 @@ flex-wrap: nowrap;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
+  justify-self: flex-start;
 }
 
 .footer__column-heading {
+  color:white;
 }
 
 .footer__list {
