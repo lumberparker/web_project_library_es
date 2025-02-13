@@ -381,6 +381,10 @@
   justify-content: space-between;
   gap: 80px;
 }
+.footer__column {
+  display: flex;
+  gap: 80px;
+}
 .footer__column-heading {
   font-weight: bold;
 }
