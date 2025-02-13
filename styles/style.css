@@ -252,7 +252,7 @@
   gap: 10px;
 }
 
-.person_name-feynman {
+.person_name_feynman {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
 
   z-index: 1;
