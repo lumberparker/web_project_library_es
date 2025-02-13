@@ -376,7 +376,7 @@
   justify-content: space-between;
 }
 
-.footer__columns {
+.footer__column {
   display: flex;
   gap: 80px;
 }
