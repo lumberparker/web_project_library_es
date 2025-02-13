@@ -252,7 +252,7 @@
   gap: 10px;
 }
 
-.person_name_feynman {
+.person_name-feynman {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
 
   z-index: 1;
@@ -372,35 +372,30 @@
 }
 .footer__container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
+
 .footer__columns {
   display: flex;
-  flex-direction: row;
+  gap: 80px;
 }
 
 .footer__column_content_hours {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
-.footer__column_content_social_open {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.footer__column_content_hours_open {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 .footer__logo {
+  height: 80px;
+  width: 58px;
 }
 
 .footer__column-heading {
@@ -427,8 +422,6 @@
 }
 
 .footer__copyright {
-}
-
-h4 {
-  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
