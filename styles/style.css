@@ -376,6 +376,7 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 80px;
+  flex-direction: row;
 }
 
 .footer__column {
