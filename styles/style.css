@@ -397,14 +397,6 @@
   font-weight: bold;
 }
 
-.footer__column_content_hours,
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  white-space: nowrap;
-}
-
 .footer__logo {
   height: 80px;
   width: 54px;
