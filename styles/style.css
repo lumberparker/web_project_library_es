@@ -418,6 +418,7 @@
   flex-direction: column;
   gap: 16px;
   white-space: nowrap;
+  font-weight: normal;
 }
 
 .footer__column-link {
@@ -429,4 +430,5 @@
   display: flex;
   gap: 10px;
   flex-direction: row;
+  font-weight: normal;
 }
