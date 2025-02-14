@@ -375,18 +375,11 @@
   display: flex;
   gap: 80px;
   flex-direction: row;
-  align-content: flex-end;
   justify-content: flex-end;
 }
 .footer__column-logo {
   align-self: flex-start;
-  justify-self: flex-start;
 }
-.footer__content-column {
-  display: flex;
-  gap: 80px;
-}
-
 .footer__column-heading {
   font-weight: bold;
   justify-content: flex-end;
