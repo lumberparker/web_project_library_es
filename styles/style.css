@@ -373,21 +373,32 @@
 
 .footer__columns {
   display: flex;
-  gap: 80px;
-  flex-direction: row;
-  justify-content: flex-end;
 }
+
 .footer__column-logo {
   align-self: flex-start;
 }
-.footer__column-heading {
+.footer__column_content_hours {
+  margin-left: auto; /* Pushes the content columns to the right */
+}
+.footer__column_content_social {
+  margin-left: 80px; /* Adds some space between hours and social columns */
+}
+
+.footer__column-content {
+  display: flex;
+  flex-direction: column;
+}
+  .footer__column-heading {
   font-weight: bold;
   justify-content: flex-end;
+  margin-top: 0;
 }
 
 .footer__logo {
   height: 80px;
   width: 54px;
+  just;
 }
 
 .footer__list {
@@ -402,7 +413,6 @@
   align-items: flex-start;
   text-align: left;
 }
-
 .footer__column-link {
   color: white;
   text-decoration: none;
@@ -412,6 +422,11 @@
 .footer__social-icon {
   display: flex;
   gap: 10px;
-
   font-weight: normal;
+}
+.footer__column-link,
+.footer__social-icon {
+  color: white;
+  text-decoration: none;
+  text-align: left;
 }
