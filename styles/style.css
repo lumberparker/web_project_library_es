@@ -392,7 +392,7 @@
 .footer__column-heading {
   font-weight: bold;
   justify-content: flex-end;
-  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .footer__logo {
