@@ -373,19 +373,10 @@
 
 .footer__columns {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
   gap: 80px;
   flex-direction: row;
-}
-
-.footer__column {
-  flex: 1;
-}
-
-.footer__logo-column {
-  order: -1; /* Move logo to the first position */
-  align-self: flex-start; /* Ensure alignment at the top */
+  align-content: flex-end;
+  justify-content: flex-end;
 }
 
 .footer__content-column {
@@ -395,6 +386,7 @@
 
 .footer__column-heading {
   font-weight: bold;
+  justify-content: flex-end;
 }
 
 .footer__logo {
@@ -411,16 +403,19 @@
   gap: 16px;
   white-space: nowrap;
   font-weight: normal;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  text-align: left;
 }
 
 .footer__social-icon {
   display: flex;
   gap: 10px;
-  flex-direction: row;
+
   font-weight: normal;
 }
