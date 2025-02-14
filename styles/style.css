@@ -384,9 +384,13 @@
 }
 
 .footer__logo-column {
-  /* Ensure logo column stays at the left end */
   order: -1; /* Move logo to the first position */
   align-self: flex-start; /* Ensure alignment at the top */
+}
+
+.footer__content-column {
+  display: flex;
+  gap: 80px;
 }
 
 .footer__column-heading {
