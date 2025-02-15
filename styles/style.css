@@ -418,7 +418,6 @@
   text-align: left;
   display: flex;
   gap: 10px;
-  align-items: flex-start;
 }
 
 .footer__social-icon {
