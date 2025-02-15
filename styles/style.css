@@ -427,6 +427,9 @@
   height: 16px;
   width: 16px;
 }
+.footer__column-link {
+  align-items: center;
+}
 .footer__column-link,
 .footer__social-icon {
   color: white;
