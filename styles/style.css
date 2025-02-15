@@ -318,7 +318,7 @@
 }
 
 .membership__title {
-  max-width: 580px;
+  max-width: 574px;
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
@@ -343,6 +343,7 @@
   /* Agrega estilos */
   flex-wrap: wrap;
   max-width: 220px;
+  flex-basis: 1;
 }
 
 .step__title {
@@ -363,7 +364,7 @@
 }
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   display: flex;
   flex-direction: column;
@@ -397,7 +398,7 @@
 
 .footer__logo {
   height: 80px;
-  width: 54px;
+  width: 58px;
 }
 
 .footer__list {
