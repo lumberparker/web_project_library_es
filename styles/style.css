@@ -6,7 +6,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-/* Contenedor de todo el encabezado */
 .header {
   display: flex;
   flex-direction: column;
@@ -18,7 +17,6 @@
   box-sizing: border-box;
   margin-bottom: 10vw;
 }
-/* Barra de Navegación */
 .nav {
   max-width: 100%;
   display: flex;
@@ -28,12 +26,11 @@
   text-wrap: nowrap;
   justify-content: space-between;
 }
-/* Logo de Barra de Navegación */
+
 .nav__logo {
   height: 80px;
   width: 58px;
 }
-/* Menú de navegación */
 .nav__links {
   margin: 8px 0px 0;
   width: 60%;
@@ -42,18 +39,15 @@
   list-style-type: none;
   padding: 0;
 }
-/* Links del menú de navegación */
 .nav__link {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
-/* Contenido Principal de encabezado */
 .header__content {
   display: flex;
   justify-content: space-between;
 }
-/* Título de encabezado */
 .header__title {
   max-width: 635px;
   font-size: 62px;
@@ -61,18 +55,15 @@
   font-weight: 500;
   margin: 128px 0 0 0;
 }
-/* Descripción de encabezado */
 .header__description {
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0 0;
 }
-/* Imagen de encabezado */
 .header__image {
   max-width: 636px;
 }
-/* Pie de encabezado */
 .header__footer {
   margin-top: auto;
   width: 100%;
@@ -253,35 +244,27 @@
 }
 
 .person_name_feynman {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-
   z-index: 1;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   top: 79px;
   left: 159px;
 }
@@ -340,7 +323,6 @@
 }
 
 .step {
-  /* Agrega estilos */
   flex-wrap: wrap;
   max-width: 220px;
   flex-basis: 220px;
@@ -379,10 +361,10 @@
   align-self: flex-start;
 }
 .footer__column_content_hours {
-  margin-left: auto; /* Pushes the content columns to the right */
+  margin-left: auto;
 }
 .footer__column_content_social {
-  margin-left: 80px; /* Adds some space between hours and social columns */
+  margin-left: 80px;
 }
 
 .footer__column-content {
