@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explora la Biblioteca Triple Peaks, un espacio con una amplia colección de libros, recursos digitales y eventos culturales para todos los amantes de la lectura."
+    />
     <title>Biblioteca Triple Peaks</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
@@ -24,11 +28,13 @@
               >
             </li>
             <li><a href="#events" class="nav__link">Eventos</a></li>
-            <li><a class="nav__link">Conviértete en miembro</a></li>
-            <li><a class="nav__link">Contactos</a></li>
+            <li>
+              <a href="#membership" class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li><a href="#footer" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
-        <section id="header" class="header__content">
+        <div id="header" class="header__content">
           <div>
             <h1 class="header__title">
               Bienvenidos a la biblioteca Triple Peaks
@@ -45,7 +51,7 @@
             alt="Ilustración 'Dentro de la biblioteca'"
             class="header__image"
           />
-        </section>
+        </div>
         <div class="header__footer">
           <p class="header__address">Triple Peaks, 200 Success Avenue</p>
         </div>
@@ -209,8 +215,10 @@
             </div>
           </div>
         </section>
-        <section class="membership">
-          <h2 class="membership__title">¡Convertirse en miembro es muy fácil!</h2>
+        <section id="membership" class="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -265,17 +273,59 @@
           </ul>
         </section>
       </main>
-      <footer class="footer">
+      <footer id="footer" class="footer">
         <div class="footer__columns">
-          <img src="./images/logo_white.svg" alt="Logotipo blanco" class="footer__logo">
-          <div class="footer__column_content_hours">
-            <h3 class="footer__column-heading">Horario de apertura</h3>
-            
-          </div> 
-          <div class="footer__column_content_social">
-            <h3 class="footer__column-heading">Redes sociales</h3>
-          </div> 
+          <div class="footer__column footer__column-logo">
+            <img
+              src="./images/logo_white.svg"
+              alt="Logotipo blanco"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <div>
+              <h3 class="footer__column-heading">Horas de Servicio</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  Lunes a Viernes: 9 a.m. - 8 p.m.
+                </li>
+                <li class="footer__list-item">
+                  Sábados y Domingos: 10 a.m. - 6 p.m.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <div>
+              <h3 class="footer__column-heading">Redes Sociales</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer__column-link" href="#"
+                    ><img
+                      class="footer__social-icon"
+                      src="./images/facebook_white.svg"
+                      alt="Facebook icon"
+                    />
+                    <div>Facebook</div></a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__column-link" href="#"
+                    ><img
+                      class="footer__social-icon"
+                      src="./images/instagram_white.svg"
+                      alt="Instagram icon"
+                    />
+                    <div>instagram</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <p class="footer__copyright" id="footer-copyright">
+          © 2025 Rodney Parker
+        </p>
       </footer>
     </div>
   </body>
